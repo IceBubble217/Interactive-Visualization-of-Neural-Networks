@@ -50,3 +50,16 @@ Acknowledgement
 
 I would like to express our special thanks of gratitude to Prof. Jeffrey Heer for his professional planning and instruction of this course and as well as Matthew Conlen, Yang Liu, Sherry Wu and Halden Lin for all the help they offered as the teaching assistants. Our success would be impossible without their effort. 
 Secondly we would also like to thank Dr. Callin Callin Switzer who shared us with this golden project idea and generously offered his data. We appreciate the great ideas he provided through our discussion.
+
+
+## Instruction on Visualizing Your Own Neural Networks
+
+1. Prepare the weights of your neural network in .pkl file. See SampleWeights.pkl in the doc folder for example.
+
+2. Run Weights2Json.ipynb in Jupyter Notebook to get the weights in json.
+
+3. Upload the weight json file to your online path.
+
+4. In the observable page, under "Which Model?" part (click on the left of the cell to edit), add the path to your weight json file with the model name.
+
+5. Choose your new model and visualize on observable!
